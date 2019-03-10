@@ -79,29 +79,47 @@ Start i2c communication.
 ### `set_servos`
 
   set servos ports.
+
   Parameters:
+
       rs1: integer port connected to right front superior servo.
+
       ri1: integer port connected to right front inferior servo.
+
       rs2: integer port connected to right back superior servo.
+
       ri2: integer port connected to right back inferior servo.
+
       ls1: integer port connected to left front superior servo.
+
       li1: integer port connected to left front inferior servo.
+
       ls2: integer port connected to left back superior servo.
+      
       li2: integer port connected to left back inferior servo.
 
 ### `zero_pos`
   Put all servos in initial position.
 
 ### `step`
-  Move all servos to a defined angle:
+  Move all servos to a defined angle.
+
   Parameters:
+
       rs1: integer angle of right front superior servo.
+
       ri1: integer angle of right front inferior servo.
+
       rs2: integer angle of right back superior servo.
+
       ri2: integer angle of right back inferior servo.
+
       ls1: integer angle of left front superior servo.
+
       li1: integer angle of left front inferior servo.
+
       ls2: integer pngle of left back superior servo.
+
       li2: integer angle of left back inferior servo.
 
 ### `move_forward`
