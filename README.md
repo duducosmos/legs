@@ -64,7 +64,8 @@ void setup() {
 
 void loop() {
     /*
-    Update the moviment according to value defined by set_current_state method.
+    Update the moviment according to the value defined by `set_current_state`
+    method.
     */
     legs.move_according_state();
 }
@@ -95,7 +96,7 @@ Start i2c communication.
       li1: integer port connected to left front inferior servo.
 
       ls2: integer port connected to left back superior servo.
-      
+
       li2: integer port connected to left back inferior servo.
 
 ### `zero_pos`
